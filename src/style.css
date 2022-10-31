@@ -5,6 +5,14 @@ body {
 div {
   display: block;
 }
+.weather-app {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 30px 50px rgb(65 50 100 / 8%);
+  color: #878787;
+  font-family: Cerebri-Sans, Helvetica, Arial, sans-serif;
+  padding: 40px;
+}
 h1 {
   color: #272142;
   font-size: 38px;
@@ -30,11 +38,14 @@ a {
 }
 .overview {
   margin-top: 20px;
+  text-align: left;
+  border: 3px;
 }
 
 ul {
   margin: 0;
   padding: 0;
+  align: right;
 }
 li {
   color: rgba(39, 33, 66, 0.4);
@@ -71,4 +82,12 @@ form {
   height: 50px;
   line-height: 20px;
   padding: 15px 20px;
+}
+#temperature {
+  color: #212121;
+  font-size: 80px;
+  font-weight: 400;
+  font-weight: 700;
+  line-height: 1;
+  margin-left: 10px;
 }
