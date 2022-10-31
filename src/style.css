@@ -1,10 +1,17 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
 }
-
+div {
+  display: block;
+}
 h1 {
-  line-height: 28px;
-  font-weight: normal;
+  color: #272142;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 29px;
+  line-height: 48px;
+  margin: 20px 0 10px;
 }
 
 p {
@@ -20,4 +27,48 @@ a {
   position: relative;
   top: -10px;
   left: 20px;
+}
+.overview {
+  margin-top: 20px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  color: rgba(39, 33, 66, 0.4);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  list-style: none;
+  margin-bottom: 5px;
+}
+form {
+  border-bottom: 1px solid #f9f7fe;
+  margin-top: 40px;
+  padding-bottom: 30px;
+}
+.weather-app {
+  margin: 60px auto;
+  max-width: 800px;
+}
+.btn {
+  background: #885df1;
+  border: none;
+  font-size: 16px;
+  font-weight: 700;
+  height: 50px;
+  padding: 15px 0;
+}
+.form-control {
+  background: #f9f7fe;
+  border: none;
+  border-radius: 6px;
+  color: rgba(39, 33, 66, 0.4);
+  display: inline-block;
+  font-size: 16px;
+  height: 50px;
+  line-height: 20px;
+  padding: 15px 20px;
 }
