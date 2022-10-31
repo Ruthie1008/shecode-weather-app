@@ -39,31 +39,31 @@
             </div>
           </form>
           <div class="row">
-
-          </div><div class="overview">
-            <h1 id="city">New York</h1>
-            <ul>
-              <li>Last updated: <span id="date"></span></li>
-              <li id="description">Clear</li>
-            </ul>
-          </div>
+            <div class="overview">
+              <h1 id="city">New York</h1>
+              <ul>
+                <li>Last updated: <span id="date"></span></li>
+                <li id="description">Clear</li>
+              </ul>
+            </div>
             <div class="col-6">
-              <div class="d-flex temperature-container">
+              <div class="d-flex temperature-container justify-content-end">
                 <img src="" alt="" id="icon" class="float-left" />
                 <div>
                   <strong id="temperature">50</strong
                   ><span class="units"> °C</span>
                 </div>
+                <div class="col-6">
+                  <ul>
+                    <li>Humidity: <span id="humidity"></span>%</li>
+                    <li>Wind: <span id="wind"></span> m/h</li>
+                  </ul>
+                </div>
+            </div>
               </div>
             </div>
-            <div class="col-6">
-              <ul>
-                <li>Humidity: <span id="humidity"></span>%</li>
-                <li>Wind: <span id="wind"></span> m/h</li>
-              </ul></div>
-            
+            <div class="weather-forecast" id="forecast"></div>
           </div>
-          <div class="weather-forecast" id="forecast"></div>
         </div>
         <small>
           <a

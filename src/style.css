@@ -91,3 +91,8 @@ form {
   line-height: 1;
   margin-left: 10px;
 }
+.col-6 {
+  margin-top: 20px;
+  text-align: right;
+  border: 3px;
+}
