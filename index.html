@@ -18,6 +18,26 @@
     <div class="container">
       <div class="weather-app-wrapper">
         <div class="weather-app">
+          <form id="search-form" class="mb-3">
+            <div class="row">
+              <div class="col-9">
+                <input
+                  type="search"
+                  placeholder="Type a city.."
+                  class="form-control"
+                  id="city-input"
+                  autocomplete="off"
+                />
+              </div>
+              <div class="col-3">
+                <input
+                  type="submit"
+                  value="Search"
+                  class="btn btn-primary w-100"
+                />
+              </div>
+            </div>
+          </form>
           <div class="overview">
             <h1 id="city"></h1>
             <ul>
@@ -27,12 +47,12 @@
           </div>
           <div class="row">
             <div class="col-6">
-              <div class="d-flex weather-temperature">
-                    <img src="" alt="Clear" id="icon" />
-                    <div>
-                 <strong id="temperature"></strong><span class="units"> °C</span>
-                     </div>
-            </div>
+              <div class="clearfix weather-temperature">
+                <img src="" alt="Clear" id="icon" class="float-left" />
+                <div class="float-left">
+                  <strong id="temperature"></strong
+                  ><span class="units"> °C</span>
+                </div>
               </div>
             </div>
             <div class="col-6">
@@ -42,14 +62,15 @@
               </ul>
             </div>
           </div>
+          <div class="weather-forecast" id="forecast"></div>
         </div>
         <small>
           <a
-            href="https://github.com/wecodeschool/vanilla-weather-app"
+            href="https://github.com/Ruthie1008/shecode-weather-app"
             target="_blank"
             >Open-source code</a
           >
-          by Matt Delac
+          by Ruthie Neisen
         </small>
       </div>
     </div>
