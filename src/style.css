@@ -55,11 +55,15 @@ li {
   list-style: none;
   margin-bottom: 5px;
 }
+li:first-letter {
+  text-transform: capitalize;
+}
 form {
   border-bottom: 1px solid #f9f7fe;
   margin-top: 40px;
   padding-bottom: 30px;
 }
+
 .weather-app {
   margin: 60px auto;
   max-width: 800px;
@@ -95,4 +99,22 @@ form {
   margin-top: 20px;
   text-align: right;
   border: 3px;
+}
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+  color: #000;
+}
+
+.weather-forecast-date {
+  font-size: 16px;
+  opacity: 0.5;
+}
+
+.weather-forecast-temperature-min {
+  opacity: 0.5;
+}
+
+.weather-forecast-temperatures {
+  font-size: 13px;
 }
