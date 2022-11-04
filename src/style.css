@@ -63,7 +63,13 @@ form {
   margin-top: 40px;
   padding-bottom: 30px;
 }
-
+small {
+  display: inline-block;
+  border-top: 3px solid;
+  width: 100%;
+  border-color: #885df1;
+  padding-top: 5px;
+}
 .weather-app {
   margin: 60px auto;
   max-width: 800px;
@@ -94,6 +100,12 @@ form {
   font-weight: 700;
   line-height: 1;
   margin-left: 10px;
+}
+.col {
+  flex: 1 0;
+}
+.col-2 {
+  padding-bottom: 15px;
 }
 .col-6 {
   margin-top: 20px;
